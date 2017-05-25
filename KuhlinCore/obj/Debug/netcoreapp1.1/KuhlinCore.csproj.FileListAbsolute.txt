@@ -1,0 +1,8 @@
+c:\WorkShop\99-WareHouse\GitLabs\KuhlinCore\bin\Debug\netcoreapp1.1\KuhlinCore.deps.json
+c:\WorkShop\99-WareHouse\GitLabs\KuhlinCore\bin\Debug\netcoreapp1.1\KuhlinCore.runtimeconfig.json
+c:\WorkShop\99-WareHouse\GitLabs\KuhlinCore\bin\Debug\netcoreapp1.1\KuhlinCore.runtimeconfig.dev.json
+c:\WorkShop\99-WareHouse\GitLabs\KuhlinCore\bin\Debug\netcoreapp1.1\KuhlinCore.dll
+c:\WorkShop\99-WareHouse\GitLabs\KuhlinCore\bin\Debug\netcoreapp1.1\KuhlinCore.pdb
+c:\WorkShop\99-WareHouse\GitLabs\KuhlinCore\obj\Debug\netcoreapp1.1\KuhlinCore.AssemblyInfo.cs
+c:\WorkShop\99-WareHouse\GitLabs\KuhlinCore\obj\Debug\netcoreapp1.1\KuhlinCore.dll
+c:\WorkShop\99-WareHouse\GitLabs\KuhlinCore\obj\Debug\netcoreapp1.1\KuhlinCore.pdb
