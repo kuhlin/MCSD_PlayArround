@@ -1,17 +1,12 @@
-﻿
+﻿@model List<HelloMVC.Models.Car>
 @{
-    Layout = null;
+    ViewBag.Title = "Index";
 }
 
-<!DOCTYPE html>
+<h1>@ViewBag.GeorgeCreatedThis</h1>
+<h2>Index</h2>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
-    </div>
-</body>
-</html>
+@foreach (var car in Model)
+{
+    <p>@car.Id - @car.Make - @car.Model</p>
+}

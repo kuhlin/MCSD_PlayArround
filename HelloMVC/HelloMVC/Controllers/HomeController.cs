@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloMVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,11 @@ namespace HelloMVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            var cars = HelloModel.GetCars();
+
+            ViewBag.GeorgeCreatedThis = "Some boring text";
+
+            return View(cars);
         }
     }
 }
