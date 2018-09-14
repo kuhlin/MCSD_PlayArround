@@ -1,9 +1,5 @@
 ﻿using OperasWebSites.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
@@ -18,6 +14,7 @@ namespace OperasWebSites
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //Creamos la BBDD la primera vez que arrancamos la aplicación
             Database.SetInitializer<OperasDB>(new OperasInitializer());
         }
     }

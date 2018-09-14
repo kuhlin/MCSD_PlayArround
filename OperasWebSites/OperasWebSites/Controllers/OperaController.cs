@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using OperasWebSites.Models;
 
@@ -55,7 +51,7 @@ namespace OperasWebSites.Controllers
                 return RedirectToAction("Index");
             }
 
-            return View(opera);
+            return View("Create", opera);
         }
 
         // GET: Opera/Edit/5
