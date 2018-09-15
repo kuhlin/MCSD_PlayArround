@@ -1,0 +1,61 @@
+// Recreating "never force" by Gerard Ferrandez:
+// https://codepen.io/ge1doot/pen/jEgLKo
+
+let mouse = createVector(window.innerWidth * 0.5, window.innerHeight * 0.5);
+
+function draw(e) {
+	if(mouseIn) {
+		mouse.lerp(mousePos, 0.05);
+	}
+	else {
+		let speed = 0.03;
+		let target = Vector.center();
+		// if(isPreviewEmbed()) {
+			speed = 0.05;
+			let time = e * 0.001;
+			target = target.add(createVector(sin(time * 3), cos(time * 5)).mult(200));
+		// }
+		mouse.lerp(target, speed);
+	}
+	let size = 50;
+	let xCount = width / size;
+	let yCount = height / size;
+	size *= 0.75;
+	let iXCount = 1 / xCount;
+	let iYCount = 1 / yCount;
+	let r = 200;
+	let iR = 1 / r;
+	lineCap('round');
+	let vecs = [];
+	for(let Y = 0; Y < yCount; Y++) {
+		for(let X = 0; X < xCount; X++) {
+			let pos = createVector(X, Y)
+					.add(0.5)
+					.mult(iXCount, iYCount)
+					.mult(width, height);
+			let diff = mouse.copy().sub(pos);
+			let mag = diff.mag();
+			if(mag > r) {
+				continue;
+			}
+			let m = mag * iR;
+			let k = m * PI;
+			let end = diff.copy().mult(-sin(k)).add(pos);
+			vecs.push({ pos, end, diff, m, z: 1 + 3 * (1 - sin(k * 0.5)) });
+		}
+	}
+	let h = ease.sine.inOut(mouse.x / width) * 360;
+	vecs.sort((a, b) => a.z - b.z).forEach(({ pos, end, diff, m }, i) => {
+		let l = ease.expo.inOut(1 - m) * 50 + 25;
+		let a = constrain((1 - m) * 5, 0, 1);
+		let color = hsl(h, 100, l, a);
+		beginPath();
+		line(pos, end);
+		ctx.shadowBlur = m * 30;
+		ctx.shadowColor = lightenHSL(color, -0.625);
+		let sOff = diff.mult(-0.1);
+		ctx.shadowOffsetX = sOff.x;
+		ctx.shadowOffsetY = sOff.y;
+		stroke(color, size);
+	});
+}

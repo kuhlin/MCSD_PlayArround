@@ -1,12 +1,9 @@
-﻿using System;
+﻿using System.Data.Entity;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Data.Entity;
 
 namespace OperasWebSites.Models
 {
-    public class OperasInitializer: DropCreateDatabaseAlways<OperasDB>
+    public class OperasInitializer: DropCreateDatabaseIfModelChanges<OperasDB>
     {
         protected override void Seed(OperasDB context)
         {
