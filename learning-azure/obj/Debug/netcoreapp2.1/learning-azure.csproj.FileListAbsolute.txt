@@ -1,0 +1,13 @@
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\bin\Debug\netcoreapp2.1\learning-azure.deps.json
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\bin\Debug\netcoreapp2.1\learning-azure.runtimeconfig.json
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\bin\Debug\netcoreapp2.1\learning-azure.runtimeconfig.dev.json
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\bin\Debug\netcoreapp2.1\learning-azure.dll
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\bin\Debug\netcoreapp2.1\learning-azure.pdb
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\obj\Debug\netcoreapp2.1\learning-azure.csprojAssemblyReference.cache
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\obj\Debug\netcoreapp2.1\learning-azure.csproj.CoreCompileInputs.cache
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\obj\Debug\netcoreapp2.1\learning-azure.AssemblyInfoInputs.cache
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\obj\Debug\netcoreapp2.1\learning-azure.AssemblyInfo.cs
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\obj\Debug\netcoreapp2.1\learning-azure.dll
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\obj\Debug\netcoreapp2.1\learning-azure.pdb
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\bin\Debug\netcoreapp2.1\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\learning-azure\bin\Debug\netcoreapp2.1\learning-azure.dll.config
