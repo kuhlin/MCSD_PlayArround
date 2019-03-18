@@ -14,7 +14,7 @@ namespace HelloMVC.Controllers
         {
             var cars = HelloModel.GetCars();
 
-            ViewBag.GeorgeCreatedThis = "Some boring text";
+            ViewBag.GeorgeCreatedThis = "Some boring text here";
 
             return View(cars);
         }
