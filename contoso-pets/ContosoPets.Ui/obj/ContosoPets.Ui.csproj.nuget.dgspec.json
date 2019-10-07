@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\WorkShop\\99-WareHouse\\GitHub_Kuhlin\\MCSD_PlayArround\\contoso-pets\\ContosoPets.Ui\\ContosoPets.Ui.csproj": {}
+  },
+  "projects": {
+    "C:\\WorkShop\\99-WareHouse\\GitHub_Kuhlin\\MCSD_PlayArround\\contoso-pets\\ContosoPets.Ui\\ContosoPets.Ui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkShop\\99-WareHouse\\GitHub_Kuhlin\\MCSD_PlayArround\\contoso-pets\\ContosoPets.Ui\\ContosoPets.Ui.csproj",
+        "projectName": "ContosoPets.Ui",
+        "projectPath": "C:\\WorkShop\\99-WareHouse\\GitHub_Kuhlin\\MCSD_PlayArround\\contoso-pets\\ContosoPets.Ui\\ContosoPets.Ui.csproj",
+        "packagesPath": "C:\\Users\\gdiaconu\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkShop\\99-WareHouse\\GitHub_Kuhlin\\MCSD_PlayArround\\contoso-pets\\ContosoPets.Ui\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gdiaconu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

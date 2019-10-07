@@ -1,0 +1,18 @@
+WARNING: Webapp apiapp479596878 already exits. The command will deploy contents to the existing app
+WARNING: Updating runtime version from None to dotnetcore|2.2
+WARNING: Creating zip with contents of dir /home/gidiaconu/contoso-pets/src/ContosoPets.Api ...
+WARNING: Getting scm site credentials for zip deployment
+WARNING: Starting zip deployment. This operation can take a while to complete ...
+WARNING: You can launch the app at http://apiapp479596878.azurewebsites.net
+{
+  "URL": "http://apiapp479596878.azurewebsites.net",
+  "appserviceplan": "plan479596878",
+  "location": "westus",
+  "name": "apiapp479596878",
+  "os": "Windows",
+  "resourcegroup": "Learn-d76f19e0-c307-4245-993a-500b42d7b365",
+  "runtime_version": "dotnetcore|2.2",
+  "sku": "F1",
+  "src_path": "//home//gidiaconu//contoso-pets//src//ContosoPets.Api",
+  "version_detected": "2.2"
+}
