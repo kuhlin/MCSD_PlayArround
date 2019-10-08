@@ -39,3 +39,4 @@ C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\dotNet_WebApp\myWebApp\o
 C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\dotNet_WebApp\myWebApp\obj\Debug\netcoreapp3.0\myWebApp.RazorTargetAssemblyInfo.cs
 C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\dotNet_WebApp\myWebApp\obj\Debug\netcoreapp3.0\myWebApp.Views.pdb
 C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\dotNet_WebApp\myWebApp\obj\Debug\netcoreapp3.0\myWebApp.csproj.CopyComplete
+C:\WorkShop\99-WareHouse\GitHub_Kuhlin\MCSD_PlayArround\dotNet_WebApp\myWebApp\obj\Debug\netcoreapp3.0\Razor\Pages\Index2.cshtml.g.cs
