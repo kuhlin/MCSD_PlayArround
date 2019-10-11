@@ -50,6 +50,14 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
                         Price = 3.99M
+                    },
+
+                    new Movie
+                    {
+                        Title = "The good, the bad and the ugly",
+                        ReleaseDate = DateTime.Parse("2018-1-12"),
+                        Genre = "Western",
+                        Price = 1.19M
                     }
                 );
                 context.SaveChanges();
